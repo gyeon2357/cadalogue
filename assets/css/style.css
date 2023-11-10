@@ -44,7 +44,7 @@ html {
 html,
 body {
   font-family: "Pretendard", sans-serif;
-  font-size: 0.875rem;
+
   line-height: 1.625;
   background: #fff;
   color: #333;
@@ -56,6 +56,8 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+
+  font-size: 0.825rem;
 }
 
 article {
@@ -79,8 +81,12 @@ figure img {
 }
 
 @media (min-width: 720px) {
+  body {
+    font-size: 0.875rem;
+  }
+
   article {
-  height: calc(100vh - 12rem);
+    height: calc(100vh - 8rem);
     justify-content: space-around;
     margin: 0;
   }
