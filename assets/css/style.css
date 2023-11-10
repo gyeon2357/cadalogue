@@ -54,6 +54,11 @@ body {
 
   justify-content: stretch;
   align-items: center;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 ::-moz-selection {
