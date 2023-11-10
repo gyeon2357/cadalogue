@@ -85,6 +85,10 @@ figure img {
 }
 
 @media (min-width: 720px) {
+  body {
+    justify-content: center;
+  }
+
   header .logo img {
     width: 125px;
   }
